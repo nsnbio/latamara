@@ -138,9 +138,9 @@ while True:
     print('Chequeo próximo con alarma.')
     alarm = True
 
-  while segundos_faltantes > 29:
-    time.sleep(29)
-    segundos_faltantes = segundos_faltantes - 29
+  while segundos_faltantes > 90:
+    time.sleep(90)
+    segundos_faltantes = segundos_faltantes - 90
     print(segundos_faltantes)
 
   print(segundos_faltantes)
