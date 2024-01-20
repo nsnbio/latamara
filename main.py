@@ -2,7 +2,7 @@ from keep_alive import keep_alive
 import requests
 import subprocess
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
 
 def enviar_mensaje(mensaje):
